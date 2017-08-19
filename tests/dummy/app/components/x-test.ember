@@ -1,0 +1,18 @@
+<script>
+  import Ember from 'ember';
+
+  export default Ember.Component.extend({
+    myVar: 'Testing dynamic vars',
+  });
+</script>
+
+<template>
+  <h1 id="hello">Hello World!</h1>
+  <p id="dynamic">{{myVar}}</p>
+</template>
+
+<style>
+  h1 {
+    color: red;
+  }
+</style>

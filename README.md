@@ -1,6 +1,32 @@
 # ember-cli-single-file-components
 
-This README outlines the details of collaborating on this Ember addon.
+This is a Work In Progress and should not be used in production.
+
+## Usage
+
+```html
+<!-- /app/components/my-component.ember -->
+<script>
+  import Ember from 'ember';
+
+  export default Ember.Component.extend({
+    myVar: 'Testing dynamic vars',
+  });
+</script>
+
+<template>
+  <h1 id="hello">Hello World!</h1>
+  <p id="dynamic">{{myVar}}</p>
+</template>
+
+<style>
+  h1 {
+    color: red;
+  }
+</style>
+```
+
+And use wherever you want `{{my-component myVat='test'}}`.
 
 ## Installation
 
