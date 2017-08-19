@@ -21,7 +21,7 @@
     "broccoli-filter": "^1.2.4",
     "broccoli-funnel": "^1.2.0",
     "broccoli-merge-trees": "^2.0.0",
-    "broccoli-multi-filter": "file:../broccoli-multi-filter",
+    "broccoli-multi-filter": "https://github.com/urbany/broccoli-multi-filter/tarball/fix-3-missing-dir",
     "broccoli-style-manifest": "^1.2.2",
     "de-indent": "^1.0.2",
     "ember-cli-babel": "^6.7.2"
