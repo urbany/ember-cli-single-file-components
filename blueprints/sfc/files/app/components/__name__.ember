@@ -1,0 +1,11 @@
+<script>
+import Ember from 'ember';
+
+export default Ember.Component.extend({
+
+});
+</script>
+
+<template></template>
+
+<style></style>

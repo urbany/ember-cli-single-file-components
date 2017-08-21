@@ -2,7 +2,7 @@
 'use strict';
 
 var SFCCompiler = require('./lib/sfc-compiler');
-var Stew = require('broccoli-stew');
+// var Stew = require('broccoli-stew');
 var Funnel = require('broccoli-funnel');
 var Merge = require('broccoli-merge-trees');
 var StyleManifest = require('broccoli-style-manifest');
